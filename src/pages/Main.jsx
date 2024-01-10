@@ -23,7 +23,7 @@ export const Main = () => {
     return(
         <Container>
             <h1>Em construção</h1>
-            <h2>O site esta quase pronto</h2>
+            <h2>Esta quase pronto, enquanto isso</h2>
             <Link to='/home' className='link'>Acessar site demo</Link>
         </Container>
     )
