@@ -27,6 +27,20 @@ h1{
     font-size:1.2rem;
     color:white;
 }
+// telas menos que 1024x650
+@media only screen and (max-width:1023px) {
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap:20px;
+}
+h1{
+    font-size:3rem;
+}
+.link{
+    min-width: 18rem;
+    min-height: 4rem;
+}
 `
 const Logo = styled.img`
 position: absolute;
